@@ -15,7 +15,7 @@ namespace PizzaOven
         }
         // Load all suffixes in an array  
         static readonly string[] suffixes =
-        { " Bytes", " KB", " MB", " GB", " TB", " PB" };
+        { " Bytes", " KB", " MB", " GB", " TB", " PB" }; //ah yes, a petabyte sized mod
         public static string FormatSize(long bytes)
         {
             int counter = 0;
